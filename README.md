@@ -25,7 +25,8 @@ hehe2.css
 @import url(hehe3.css);
 .hehe2{
     background-color: #f00;
-}```
+}
+```
 hehe3.css
 ```css
 .hehe3{
