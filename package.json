@@ -1,0 +1,30 @@
+{
+  "name": "gulp-concat-css-import",
+  "version": "1.0.0",
+  "description": "a gulp plugin, concat `@import` in css file for one",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toobull/gulp-concat-css-import.git"
+  },
+  "keywords": [
+    "gulp",
+    "css",
+    "concat",
+    "import"
+  ],
+  "author": "jser.org",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/toobull/gulp-concat-css-import/issues"
+  },
+  "homepage": "https://github.com/toobull/gulp-concat-css-import#readme",
+  "dependencies": {
+    "flkit": "^3.0.10",
+    "gulp-util": "^3.0.8",
+    "through2": "^2.0.3"
+  }
+}
