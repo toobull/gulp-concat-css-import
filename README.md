@@ -54,7 +54,7 @@ let rootPath = '/website/root/absolute/path'
 let cssSrc = '/the/path/is/resource/css/combo/src'
 let cssDest = '/the/path/is/resource/css/combo/dest'
 
-gulp.task ('js', function () {
+gulp.task ('css', function () {
     gulp.src (cssSrc+'/**/*.css')
         .pipe (concatImport ({
             rootPath : rootPath,
