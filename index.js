@@ -129,8 +129,8 @@ function resolvePath(baseCssFile, cssFile, tokens) {
                     if(resPath && !isRemoteUrl(resPath) && /^\.{2}\//.test(resPath)) {
                         flag = true
 
-                        let baseLevel = baseCssFile.split('/').length
-                        let cssLevel  = cssFile.split('/').length
+                        let baseLevel = baseCssFile.split(path.sep).length
+                        let cssLevel  = cssFile.split(path.sep).length
 
                         let resolvedResPath;
                         let levelDiff = baseLevel - cssLevel
