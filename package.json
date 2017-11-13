@@ -1,6 +1,6 @@
 {
   "name": "gulp-concat-css-import",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "a gulp plugin, concat `@import` in css file for one",
   "main": "index.js",
   "scripts": {
