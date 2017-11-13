@@ -99,7 +99,7 @@ function extractCssTokenizeContent(baseCssFile, currentCssFile, fileContent){
                     for (let i=0; i<importFileTokens.length; i++) {
                         if (importFileTokens[i].type === flkit.TokenType.CSS_SELECTOR){
                             importFileTokens[i].commentBefore.unshift({
-                                value : `\n/**import from \`${importCssFile.replace(rootPath, '')}\` **/\n`
+                                value : `\n/**import from \`${importCssFile.replace(rootPath, '').replace('\\', '/')}\` **/\n`
                             })
                             break
                         }
